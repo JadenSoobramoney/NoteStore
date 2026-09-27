@@ -96,5 +96,11 @@ public void MultiException(){
 
 
 }
+// EXAMPLE OF CUSTOM EXCEPTION// pput in sep class file
+class IncorrectinputException extends Exception {
+    public IncorrectinputException(String m) {
+        super(m);
+    }
+}
   
 
